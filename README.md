@@ -1,8 +1,6 @@
 # DocFy-AI
 
-This is the README for your extension "docfy-ai". After writing up a brief description, we recommend including the following sections.
-
-## Features
+DocFy-AI is a VSCode extension that utilizes GPT-based AI to automatically generate comprehensive documentation for code files and projects. It supports multiple programming languages and provides customizable documentation templates. With its intuitive user interface, documenting code has never been easier.
 
 ## Features
 
@@ -14,7 +12,7 @@ This is the README for your extension "docfy-ai". After writing up a brief descr
 
 ## Requirements
 
-OpenAI APIKey, this document generator uses GPT.
+To use the DocFy-AI extension, you need an OpenAI APIKey. This document generator leverages GPT to provide accurate and helpful documentation.
 
 ## Extension Settings
 
@@ -23,4 +21,5 @@ This extension contributes the following settings:
 - `myExtension.apiKey`: OpenAI APIKey
 - More settings will be her in future
 
-**Enjoy!**
+Please make sure to configure your OpenAI APIKey in the extension settings before using DocFy-AI.
+We wish you success in using the DocFy-AI VSCode extension for generating code documentation effortlessly!
