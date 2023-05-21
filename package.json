@@ -2,7 +2,7 @@
   "name": "docfy-ai",
   "displayName": "DocFy AI",
   "description": "Generate contextually accurate documentation comments for most widely used programming languages, following community standards, powered by GPT.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FranciscoOssian/DocFy-AI.git"
