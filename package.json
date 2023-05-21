@@ -36,6 +36,126 @@
           "type": "string",
           "default": "",
           "description": "API Key for GPT OpenAi"
+        },
+        "extension.JSDocPatern": {
+          "type": "string",
+          "default": "JSDoc",
+          "enum": [
+            "JSDoc"
+          ],
+          "enumDescriptions": [
+            "JSDoc"
+          ],
+          "description": "JavaScript and documentation standards"
+        },
+        "extension.PyDocPatern": {
+          "type": "string",
+          "default": "reStructuredText",
+          "enum": [
+            "reStructuredText",
+            "PEP 257 – Docstring Conventions",
+            "Google Docstring",
+            "Sphinx Docstring",
+            "Epytext"
+          ],
+          "enumDescriptions": [
+            "reStructuredText",
+            "PEP 257 – Docstring Conventions",
+            "Google Docstring",
+            "Sphinx Docstring",
+            "Epytext"
+          ],
+          "description": "Python and documentation standards"
+        },
+        "extension.JavaDocPatern": {
+          "type": "string",
+          "default": "Javadoc",
+          "enum": [
+            "Javadoc"
+          ],
+          "enumDescriptions": [
+            "Javadoc"
+          ],
+          "description": "Java and documentation standards"
+        },
+        "extension.CSharpDocPatern": {
+          "type": "string",
+          "default": "XML Documentation Comments",
+          "enum": [
+            "XML Documentation Comments"
+          ],
+          "enumDescriptions": [
+            "XML Documentation Comments"
+          ],
+          "description": "C# and documentation standards"
+        },
+        "extension.PHPDocPatern": {
+          "type": "string",
+          "default": "PHPDoc",
+          "enum": [
+            "PHPDoc"
+          ],
+          "enumDescriptions": [
+            "PHPDoc"
+          ],
+          "description": "PHP and documentation standards"
+        },
+        "extension.RubyDocPatern": {
+          "type": "string",
+          "default": "RDoc",
+          "enum": [
+            "RDoc"
+          ],
+          "enumDescriptions": [
+            "RDoc"
+          ],
+          "description": "Ruby and documentation standards"
+        },
+        "extension.SwiftDocPatern": {
+          "type": "string",
+          "default": "Markup Format",
+          "enum": [
+            "Markup Format",
+            "SwiftDoc"
+          ],
+          "enumDescriptions": [
+            "Markup Format",
+            "SwiftDoc"
+          ],
+          "description": "Swift and documentation standards"
+        },
+        "extension.GoDocPatern": {
+          "type": "string",
+          "default": "language conventions",
+          "enum": [
+            "language conventions"
+          ],
+          "enumDescriptions": [
+            "language conventions"
+          ],
+          "description": "Go and documentation standards"
+        },
+        "extension.KotlinDocPatern": {
+          "type": "string",
+          "default": "KDoc",
+          "enum": [
+            "KDoc"
+          ],
+          "enumDescriptions": [
+            "KDoc"
+          ],
+          "description": "Kotlin and documentation standards"
+        },
+        "extension.CandCPPDocPatern": {
+          "type": "string",
+          "default": "Doxygen",
+          "enum": [
+            "Doxygen"
+          ],
+          "enumDescriptions": [
+            "Doxygen"
+          ],
+          "description": "C and Cpp, documentation standards"
         }
       }
     },
@@ -53,7 +173,7 @@
         }
       ]
     }
-  },
+  },  
   "scripts": {
     "vscode:prepublish": "yarn run compile",
     "compile": "tsc -p ./",
